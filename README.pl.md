@@ -8,7 +8,7 @@ Wyniki przedstawiono w następujący sposób ：
 
 # Próbny
 
-[Gra demonstracyjna] (https://janko320000.github.io/Snek./)
+[Gra demonstracyjna](https://janko320000.github.io/Snek./)
 
 # Jak używać
 Możesz także sklonować ten projekt i wypróbować go lokalnie
