@@ -1,4 +1,4 @@
-# Retro Snaker
+# Retro Snek
 
 <p align="center">pure navtive JavaScript combined with canvas，no dependence</p>
 
