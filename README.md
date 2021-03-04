@@ -6,6 +6,8 @@ The results are shown as follows：
 # Show
 <p align="center"><img src="images/RetroSnaker.gif" width="650" alt="RetroSnaker" /></p> 
 
+# Demo
+
 [Demo Game](https://janko320000.github.io/Snek./)
 
 # How to use
