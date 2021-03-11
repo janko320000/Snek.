@@ -1,10 +1,10 @@
 # Retro Snek
 
-<p align="center">pure navtive JavaScript combined with canvas，no dependence</p>
+<p align="center">Pure navtive JavaScript combined with canvas，no dependence</p>
 
 The results are shown as follows：
 # Show
-<p align="center"><img src="images/RetroSnaker.gif" width="650" alt="RetroSnaker" /></p> 
+<p align="center"><img src="images/snek.gif" width="650" alt="RetroSnaker" /></p> 
 
 # Demo
 
@@ -25,8 +25,8 @@ I think the focus is on the idea of the program， I do not compress，you can s
 # About settings
 
 <p align="">
-  <img src="images/main.png" height="420px" width="300px">
-  <img src="images/settings.png" height="420px" width="300px">
+  <img src="images/Snek_main.png" height="420px" width="300px">
+  <img src="images/Snek_settings.png" height="420px" width="300px">
 </p>
 
 Main Function：
