@@ -1,12 +1,3 @@
-/**
-* snake.js
-* @author okaychen
-* @description  
-* @created Fri Dec 01 2017 11:24:41 GMT+0800 (中国标准时间)
-* @copyright None 
-* None
-* @last-modified Fri Dec 01 2017 17:08:44 GMT+0800 (中国标准时间)
-*/
 (function () {
     // Canvas & Context
     var canvas;
@@ -49,18 +40,34 @@
     var changeDir = function (key) {
         if (key == 38 && snake_dir != 2) {
             snake_next_dir = 0;
+        }else {
+            if (key == 87 && snake_dir != 2) {
+                snake_next_dir = 0;
         } else {
             if (key == 39 && snake_dir != 3) {
                 snake_next_dir = 1;
             } else {
+                if (key == 68 && snake_dir != 3) {
+                    snake_next_dir = 1;
+            } else {
                 if (key == 40 && snake_dir != 0) {
                     snake_next_dir = 2;
                 } else {
+                    if (key == 83 && snake_dir != 0) {
+                        snake_next_dir = 2;
+                } else {
                     if (key == 37 && snake_dir != 1) {
                         snake_next_dir = 3;
+                    } else {
+                        if (key == 65 && snake_dir != 1) {
+                            snake_next_dir = 3;
+                        }
                     }
                 }
+                }
             }
+            }
+        }
         }
     }
 
@@ -69,7 +76,6 @@
         food.x = Math.floor(Math.random() * ((canvas.width / 10) - 1));
         food.y = Math.floor(Math.random() * ((canvas.height / 10) - 1));
         for (var i = 0; i < snake.length; i++) {
-            // 如果食物被吃就增加食物
             if (checkBlock(food.x, food.y, snake[i].x, snake[i].y)) {
                 addFood();
             }
@@ -117,7 +123,7 @@
                 return;
             }
         } else {
-            //  off 无墙
+            //  off
             for (var i = 0, x = snake.length; i < x; i++) {
                 if (snake[i].x < 0) {
                     snake[i].x = snake[i].x + (canvas.width / 10);
@@ -327,12 +333,9 @@
                 evt = evt || window.event;
                 if (evt.keyCode == 32) {
                     newGame();
-                }
+               }
             }
         }
     }
-
-})()
-
-
-
+}
+)
