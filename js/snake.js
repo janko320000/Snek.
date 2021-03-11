@@ -2,10 +2,10 @@
 * snake.js
 * @author okaychen
 * @description  
-* @created Fri Mar 01 2021 11:24:41 GMT+0800
+* @created Fri Dec 01 2017 11:24:41 GMT+0800 (中国标准时间)
 * @copyright None 
 * None
-* @last-modified Fer Mar 01 2021 17:08:44 GMT+0800 
+* @last-modified Fri Dec 01 2017 17:08:44 GMT+0800 (中国标准时间)
 */
 (function () {
     // Canvas & Context
@@ -85,7 +85,7 @@
         food.x = Math.floor(Math.random() * ((canvas.width / 10) - 1));
         food.y = Math.floor(Math.random() * ((canvas.height / 10) - 1));
         for (var i = 0; i < snake.length; i++) {
-            //
+            // 
             if (checkBlock(food.x, food.y, snake[i].x, snake[i].y)) {
                 addFood();
             }
