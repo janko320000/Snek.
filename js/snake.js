@@ -76,6 +76,7 @@
         food.x = Math.floor(Math.random() * ((canvas.width / 10) - 1));
         food.y = Math.floor(Math.random() * ((canvas.height / 10) - 1));
         for (var i = 0; i < snake.length; i++) {
+            //
             if (checkBlock(food.x, food.y, snake[i].x, snake[i].y)) {
                 addFood();
             }
@@ -206,8 +207,6 @@
         mainLoop();
 
     }
-
-
     // Change the snake speed...
     // 150 = slow
     // 100 = normal
@@ -297,7 +296,6 @@
         button_setting_gameover.onclick = function () {
             showScreen(2)
         };
-
         setSnakeSpeed(150);
         setWall(1);
 
@@ -333,9 +331,9 @@
                 evt = evt || window.event;
                 if (evt.keyCode == 32) {
                     newGame();
-               }
+                }
             }
         }
     }
-}
-)
+
+})()
