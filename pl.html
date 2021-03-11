@@ -17,7 +17,7 @@
 <body>
     <header class="wrap">
         <h1>Snek</h1>
-        <p class="score">Skor：
+        <p class="score">Wynik：
             <span id="score_value">0</span>
         </p>
     </header>
@@ -25,11 +25,11 @@
     <!---- Game Over Screen ---->
     <div id="gameOver">
         <h2>Koniec Gry</h2>
-        <p>wciśnij
-            <span class="again">spacja</span>
+        <p>Wciśnij
+            <span class="again">spacje</span>
             lub
-            <a id="newgame_gameOver">nowa gra</a>
-            <a id="setting_gameOver">ustawienia</a>
+            <a id="newgame_gameOver">Nowa Gra</a>
+            <a id="setting_gameOver">Ustawienia</a>
         </p>
     </div>
 
@@ -37,6 +37,16 @@
     <div id="settings">
         <h2>Ustawienia Sneka</h2>
         <a id="newgame_setting">nowa gra</a>
+        <p>Język:
+            <input id="OR" type="radio" name="launguage">
+            <label for="OR"><a href="index.html">Originalny</a></label>
+
+            <input id="PL" type="radio" name="launguage" checked>
+            <label for="PL"><a href="pl.html">Polski</a></label>
+
+            <input id="EN" type="radio" name="launguage">
+            <label for="EN"><a href="en.html">English</a></label>
+        </p>
         <p>Prędkość：
             <input id="speed1" type="radio" name="speed" value="150">
             <label for="speed1">Wolno</label>
@@ -45,7 +55,7 @@
             <input id="speed3" type="radio" name="speed" value="50">
             <label for="speed3">Szybko</label>
         </p>
-        <p>Łol：
+        <p>Ściany：
             <input id="wallon" type="radio" name="wall" value="1" checked>
             <label for="wallon">włączone</label>
             <input id="walloff" type="radio" name="wall" value="0">
@@ -62,5 +72,4 @@
 
     <script src="js/snake.js" type="text/javascript"></script>
 </body>
-
 </html>
