@@ -1,3 +1,12 @@
+/**
+* snake.js
+* @author okaychen
+* @description  
+* @created Fri Mar 01 2021 11:24:41 GMT+0800
+* @copyright None 
+* None
+* @last-modified Fer Mar 01 2021 17:08:44 GMT+0800 
+*/
 (function () {
     // Canvas & Context
     var canvas;
