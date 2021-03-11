@@ -25,8 +25,8 @@ I think the focus is on the idea of the program， I do not compress，you can s
 # About settings
 
 <p align="">
-  <img src="images/Snek_main.jng" height="420px" width="320px">
-  <img src="images/Snek_settings.jng" height="420px" width="320px">
+  <img src="images/Snek_main.jpg" height="420px" width="320px">
+  <img src="images/Snek_settings.jpg" height="420px" width="320px">
 </p>
 
 Main Function：
