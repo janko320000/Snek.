@@ -4,7 +4,7 @@
 
 The results are shown as follows：
 # Show
-<p align="center"><img src="images/snek.gif" width="650" alt="RetroSnaker" /></p> 
+<p align="center"><img src="images/Snek.gif" width="650" alt="RetroSnaker" /></p> 
 
 # Demo
 
