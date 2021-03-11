@@ -4,7 +4,7 @@
 
 Wyniki przedstawiono w następujący sposób ：
 # Wygląd
-<p align = "center"> <img src = "images/RetroSnaker.gif" width = "650" alt = "RetroSnaker"/> </p>
+<p align = "center"> <img src = "images/Snek.gif" width = "650" alt = "RetroSnaker"/> </p>
 
 # Próbny
 
@@ -24,15 +24,17 @@ Myślę, że skupiamy się na idei programu, nie kompresuję, możesz zobaczyć 
 # O ustawieniach
 
 <p align = "">
-  <img src = "images/main.png" height = "420px" width = "300px">
-  <img src = "images/settings.png "height =" 420px "width =" 300px ">
+  <img src = "images/Snek_main.jpg" height = "420px" width = "420px">
+  <img src = "images/Snek_settings.jpg "height =" 420px "width =" 370px ">
 </p>
 
 Główna funkcja:
 
-1. Możesz wybrać ścianę jako przeszkodę 「on」 Lub 「of」
+1. Możesz wybrać ścianę jako przeszkodę 「on」(on)  lub 「of」(off)
 
-2. Możesz wybrać prędkość prędkość poruszania się węża 「sloł」 「normal」 lub 「fast」
+2. Możesz wybrać prędkość poruszania się węża 「Sloł」(Wolne) 「Normal」(Normalne)  lub 「Fast」(Szybkie)
+
+3. Możesz wybrać język 「Origin」(Oryginalny) 「Polisz」(Polski)  lub 「Inglisz」(Angielski)
 
 A pozostałe zasady są takie same, jak zasady węża stosowane w dzieciństwie
 
