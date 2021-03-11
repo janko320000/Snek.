@@ -24,11 +24,11 @@
     <canvas class="wrap" id="snake" width="400" height="400" tabindex="1"></canvas>
     <!---- Game Over Screen ---->
     <div id="gameOver">
-        <h2>Gejm Ower</h2>
-        <p>pres
-            <span class="again">spacja</span>
+        <h2>Game Over</h2>
+        <p>Press
+            <span class="again">space</span>
             begin a
-            <a id="newgame_gameOver">New Gejm</a>
+            <a id="newgame_gameOver">New Game</a>
             <a id="setting_gameOver">Settings</a>
         </p>
     </div>
@@ -36,7 +36,17 @@
     <!---- Setting Screen ---->
     <div id="settings">
         <h2>Snake Settings</h2>
-        <a id="newgame_setting">new gejm</a>
+        <a id="newgame_setting">new game</a>
+        <p>Launguage:
+            <input id="OR" type="radio" name="launguage">
+            <label for="OR"><a href="index.html">Original</a></label>
+    
+            <input id="PL" type="radio" name="launguage">
+            <label for="PL"><a href="pl.html">Polish</a></label>
+    
+            <input id="EN" type="radio" name="launguage" checked>
+            <label for="EN"><a href="en.html">English</a></label>
+        </p>
         <p>Speed：
             <input id="speed1" type="radio" name="speed" value="150">
             <label for="speed1">Slow</label>
@@ -45,7 +55,7 @@
             <input id="speed3" type="radio" name="speed" value="50">
             <label for="speed3">Fast</label>
         </p>
-        <p>Łol：
+        <p>Wall：
             <input id="wallon" type="radio" name="wall" value="1" checked>
             <label for="wallon">on</label>
             <input id="walloff" type="radio" name="wall" value="0">
@@ -56,11 +66,10 @@
     <!---- Main Menu Screen ---->
     <div id="menu">
         <h2>Retro Snek</h2>
-        <a id="newgame_menu">new gejm</a>
+        <a id="newgame_menu">new game</a>
         <a id="setting_menu">settings</a>
     </div>
 
     <script src="js/snake.js" type="text/javascript"></script>
 </body>
-
 </html>
