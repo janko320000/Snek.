@@ -31,9 +31,11 @@ I think the focus is on the idea of the program， I do not compress，you can s
 
 Main Function：
 
-1. you can choose wall as an obstacle 「on」or「off」
+1. you can choose wall as an obstacle 「on」(on)  or 「of」(off)
 
-2. you can choose speed the moving speed of the snake 「slow」「normal」or「fast」
+2. you can choose speed the moving speed of the snake 「Sloł」(Slow) 「Normal」(Normal)  or 「Fast」(Fast)
+
+3. you can choose launguage   「Origin」(Original) 「Polisz」(Polish)  or 「Inglisz」(English)
 
 And the other rules are the same as the snake rules played in childhood 
 
