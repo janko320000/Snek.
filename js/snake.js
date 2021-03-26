@@ -1,12 +1,3 @@
-/**
-* snake.js
-* @author okaychen
-* @description  
-* @created Fri Dec 01 2017 11:24:41 GMT+0800 (中国标准时间)
-* @copyright None 
-* None
-* @last-modified Fri Dec 01 2017 17:08:44 GMT+0800 (中国标准时间)
-*/
 (function () {
     // Canvas & Context
     var canvas;
